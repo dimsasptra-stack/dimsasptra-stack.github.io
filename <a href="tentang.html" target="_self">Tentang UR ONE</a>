@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tentang UR ONE</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+    }
+    .container {
+        width: 90%;
+        max-width: 800px;
+        margin: auto;
+        padding: 60px 0;
+    }
+    p {
+        line-height: 1.6;
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+    a {
+        color: #fff;
+        text-decoration: underline;
+        display: inline-block;
+        margin-top: 20px;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Tentang UR ONE</h1>
+
+    <p><strong>You Are Not Alone — “kamu tidak sendiri.”</strong></p>
+    <p>Kata ini merujuk pada pakaian yang kamu pakai. Ketika kamu mengenakannya, ada orang lain di luar sana yang juga mengenakan karya yang sama. Kalian terhubung.</p>
+    <p>Namun, dari singkatan UR ONE (ambil dari huruf kapital yUo aRe Not alOnE), muncul makna yang berbeda:</p>
+    <p><strong>“Kamu adalah satu-satunya.”</strong></p>
+    <p>Yang memakai pakaian itu dengan caramu sendiri. Dengan ceritamu. Dengan identitasmu.</p>
+    <p>Kontras?<br>Tidak masuk akal?<br>Aneh?</p>
+
+    <p><strong>YA, MEMANG.</strong></p>
+
+    <p>Aku memandang dunia dari sudut yang berbeda. Ini brand-ku. Tempat dimana aku menumpahkan keunikanku. Di sini, perbedaan bukan untuk disembunyikan — tapi untuk dibanggakan.</p>
+
+    <p><strong>UR ONE.</strong><br>Because being different is the point.</p>
+
+    <a href="index.html">Kembali ke Beranda</a>
+</div>
+</body>
+</html>
