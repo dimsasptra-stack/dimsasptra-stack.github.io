@@ -1,6 +1,85 @@
-<section id="entry">
-  <h1>CLASSIFIED RESTRICTED AREA</h1>
-  <p>UNAUTHORIZED ACCESS IS PUNISHABLE</p>
-  <button id="initiate">INITIATE PROTOCOL</button>
-</section>
-<div id="scanner"></div>
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>UR ONE — Secure Access</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main id="app">
+    <section id="entry" class="panel">
+      <div class="meta">
+        <div class="tag">CLASSIFIED</div>
+        <h1>RESTRICTED AREA</h1>
+        <p class="subtitle">UNAUTHORIZED ACCESS IS PUNISHABLE</p>
+      </div>
+
+      <div class="controls">
+        <button id="initiate" class="cta">INITIATE PROTOCOL</button>
+      </div>
+
+      <div class="scanner-wrap hidden" id="scannerWrap">
+        <div class="scanner">
+          <div class="scan-bar" id="scanBar"></div>
+          <div class="scan-text" id="scanText">SCANNING SUBJECT… 0%</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="securityCheck" class="panel hidden">
+      <h2>SECURITY CHECK</h2>
+      <p class="muted">Answer the prompts to prove clearance.</p>
+
+      <form id="checkForm" class="form">
+        <label>1) Enter access code (any text)</label>
+        <input name="q1" required />
+
+        <label>2) Confirm you are not a crawler (type: HUMAN)</label>
+        <input name="q2" required />
+
+        <label>3) State your intent (one short word)</label>
+        <input name="q3" required />
+
+        <div class="form-actions">
+          <button type="submit" class="cta">SUBMIT</button>
+          <button type="button" id="abort" class="muted-btn">ABORT</button>
+        </div>
+      </form>
+    </section>
+
+    <section id="vault" class="panel hidden">
+      <div class="vault-header">
+        <div class="status status-approved">ACCESS GRANTED</div>
+        <h2>VAULT — UR ONE</h2>
+        <p class="muted">Welcome subject. Access level: TEMPORARY</p>
+      </div>
+
+      <div class="vault-body">
+        <div class="hero">
+          <img id="heroImg" src="assets/hero-placeholder.jpg" alt="UR ONE hero" />
+        </div>
+
+        <div class="links">
+          <a href="https://shopee.co.id/dimsaspt" target="_blank" class="btn">Shop — Shopee</a>
+          <a href="https://instagram.com/dimsasptr_" target="_blank" class="btn">Instagram</a>
+          <a href="filosofi.html" class="btn">Tentang UR ONE</a>
+        </div>
+      </div>
+
+      <div class="logout">
+        <button id="logout" class="muted-btn">END SESSION</button>
+      </div>
+    </section>
+
+    <section id="denied" class="panel hidden">
+      <div class="status status-denied">ACCESS DENIED</div>
+      <p class="muted">Non compliance detected. Contact admin if you believe this is an error.</p>
+      <button id="retry" class="cta">TRY AGAIN</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+                                                            </html>
