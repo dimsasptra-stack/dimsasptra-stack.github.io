@@ -3,38 +3,56 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>UR ONE — Secure Access</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Lève-toi fils</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
-<body>
+<body class="dark">
+  <nav class="nav">
+    <div class="brand">Lève-toi fils</div>
+    <div class="nav-links">
+      <a href="shop.html">Shop</a>
+      <a href="filosofi.html">Philosophy</a>
+      <a href="https://instagram.com/dimsasptr_" target="_blank">Instagram</a>
+    </div>
+  </nav>
 
-  <main id="app">
-    <section id="entry" class="panel">
-      <div class="meta">
-        <div class="tag">CLASSIFIED</div>
-        <h1>RESTRICTED AREA</h1>
-        <p class="subtitle">UNAUTHORIZED ACCESS IS PUNISHABLE</p>
+  <main class="container">
+    <section class="hero split">
+      <div class="hero-left">
+        <h1 class="headline">Lève-toi fils</h1>
+        <p class="sub">Dream big enough to fall. At least you will have touched the sky.</p>
+        <a class="cta" href="shop.html">Explore Collection</a>
       </div>
 
-      <div class="controls">
-        <button id="initiate" class="cta">INITIATE PROTOCOL</button>
-      </div>
-
-      <div class="scanner-wrap hidden" id="scannerWrap">
-        <div class="scanner">
-          <div class="scan-bar" id="scanBar"></div>
-          <div class="scan-text" id="scanText">SCANNING SUBJECT… 0%</div>
-        </div>
+      <div class="hero-right">
+        <img src="assets/rose-hero.jpg" alt="Rose Tee" class="hero-image">
       </div>
     </section>
 
-    <section id="securityCheck" class="panel hidden">
-      <h2>SECURITY CHECK</h2>
-      <p class="muted">Answer the prompts to prove clearance.</p>
+    <section class="manifesto">
+      <h2>Those who stand still never reach the sky.</h2>
+      <p>Aim too high. Risk too much. Fall too far. And rise again.</p>
+      <a class="ghost" href="filosofi.html">Read the Philosophy</a>
+    </section>
 
-      <form id="checkForm" class="form">
-        <label>1) Enter access code (any text)</label>
-        <input name="q1" required />
+    <section class="featured">
+      <h3>Featured — Rose Ambition Tee</h3>
+      <div class="card">
+        <img src="assets/rose-front.jpg" alt="Rose Tee front" />
+        <div class="card-body">
+          <strong>Rose Ambition Tee</strong>
+          <p>Monochrome / Limited drop</p>
+          <a class="btn-outline" href="product.html">View product</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 Lève-toi fils — UR ONE</p>
+  </footer>
+</body>
+</html>        <input name="q1" required />
 
         <label>2) Confirm you are not a crawler (type: HUMAN)</label>
         <input name="q2" required />
